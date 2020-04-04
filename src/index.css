@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 
+    1920 x 1080 px 기준
+    가로: 67.733cm 
+    세로: 38.1cm
+*/
+.container-fluid {
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidebar {
+    width : 22.09%;
+    min-width: 330px;
+    height : 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+
+    border-right : 1px solid royalblue
 }
+
+.title {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    position: fixed;
+    margin-left : 3.69%;
+    margin-top : 3.69%;
+    font-weight: bolder;
+    font-size : xx-large;
+
+}
+
+.page-nav {
+    position: fixed;
+    width: auto;
+    bottom: 6.48%;
+    margin-left : 3.69%;
+    font-weight: 450;
+    font-size : xx-large;
+    font-family: arial;
+}
+
+ul.contents {
+    padding-left: 0px;
+}
+
+ul a {
+    font-size: large;
+}
+
+.main {
+    margin-left: 22.09%;
+    
+    width : 100%;
+    height : 100%;
+    position: fixed;
+}
+
+.upbar {
+    height : 13.70%;
+    text-align: center;
+
+    border-bottom: royalblue 1px solid;
+
+}
+
+.content-title {
+    display: inline-block;
+    padding-top : 2.5cm;
+    height: 100%;
+    
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.content {
+    height : 86.3%;
+
+}
+
