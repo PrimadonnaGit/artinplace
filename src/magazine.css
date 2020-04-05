@@ -1,0 +1,22 @@
+
+
+.magazine {
+    position: relative;
+    width : 30%;
+    margin : 10px;
+    text-align: center;
+}
+
+
+.magazine-img img {
+    position: absolute;
+    width : 100%;
+    margin-top: 30px;
+}
+
+#more {
+    position: absolute;
+    width : 40%;
+    top: 430px;
+    margin-left: 105px;
+}

@@ -51,8 +51,7 @@ ul a {
 
 .main {
     margin-left: 22.09%;
-    
-    width : 100%;
+    width : 77.91%;
     height : 100%;
     position: fixed;
 }
@@ -60,9 +59,6 @@ ul a {
 .upbar {
     height : 13.70%;
     text-align: center;
-
-    border-bottom: royalblue 1px solid;
-
 }
 
 .content-title {
@@ -79,3 +75,6 @@ ul a {
 
 }
 
+.magazines {
+    display : flex;
+}
